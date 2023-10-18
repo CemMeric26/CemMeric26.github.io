@@ -87,7 +87,7 @@ function displayCalculation(event) {
 
     const result = calculateDancerPointsforCompetition(degree, numPairs, numClubs, numJudges, classification);
     
-    const resultDiv = document.createElement("div");
+    const resultDiv = document.getElementById("result-display");
     resultDiv.textContent = "Calculated Points: " + result;
-    form.parentNode.insertBefore(resultDiv, form.nextSibling);
 }
+
