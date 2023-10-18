@@ -219,7 +219,23 @@
         </div>
         
     </section>
+    <!-- dance points section-->
     
+    <section class="container mt-3 section" id="contact">
+        <h1 class="text-center">Calculate your degree points</h1>
+        <div id="degree-point-calculation-section">
+                <form id="degree-point-calculation-form">
+                    <input type="number" name="degreePoints" placeholder="Degree in competition">
+                    <input type="number" name="numPairs" placeholder="Number of pairs in the competition">
+                    <input type="number" name="numClubs" placeholder="Number of clubs in the competition">
+                    <input type="number" name="numJudges" placeholder="Number of judges in the competition">
+                    <input type="text" name="classification" placeholder="Dancer's classification (A, B, C, D, or E)">
+                    <button type="submit" onclick="calculateDancerPointsforCompetition()">Calculate Points</button>
+                </form>
+                <button type="button" id="add-competition-button">Add Competition</button>
+          </div>
+        
+    </section>
     <!-- footer section-->
     <footer class="container-fluid footer" id="footer">
         <!-- social media icons -->
